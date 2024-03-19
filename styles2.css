@@ -1,0 +1,86 @@
+*{
+  margin: 2px;
+  padding: 3px;
+  border-radius: 5px;
+  
+} 
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('todoimg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 0 20px;
+    background-color: rgba(107, 148, 132, 0.8); /* Add a semi-transparent background color */
+    border-radius: 10px; /* Add border radius for a rounded corner effect */
+    box-shadow: 0 4px 6px rgba(180, 78, 124, 0.1); /* Add a subtle shadow */
+  }
+  
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .input-container {
+    background-color: rgba(11, 75, 86, 0.8); /* Add a semi-transparent background color */
+    border-radius: 10px; /* Add border radius for a rounded corner effect */
+    box-shadow: 0 4px 6px rgba(212, 97, 204, 0.1); /* Add a subtle shadow */
+    display: flex;
+    margin-bottom: 20px;
+    
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6ab145;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  li span {
+    flex: 1;
+  }
+  
+  .delete-btn {
+    background-color: #e8d20dd8;
+    color: rgb(233, 226, 226);
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
